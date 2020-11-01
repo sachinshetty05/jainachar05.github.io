@@ -88,7 +88,14 @@ div.slider img{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-/* Styles */
+#banners, #banner_slider, #slider {
+    height: 20rem;
+    width: 10em
+  }
+  .ad-block-1, .ad-block-2{
+    height: 20rem;
+    width: 10em
+  }
 }
 
 /* Smartphones (landscape) ----------- */
