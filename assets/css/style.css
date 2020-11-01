@@ -104,16 +104,14 @@ div.slider img{
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1024px) {
  #banners, #banner_slider, #slider {
-    height: 24rem;
+    height: 26rem;
     width: 10em
   }
   .ad-block-1, .ad-block-2{
-    height: 24rem;
+    height: 26rem;
     width: 10em
   }
 }
-
-
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 1224px) {
