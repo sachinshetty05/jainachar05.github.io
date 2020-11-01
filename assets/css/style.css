@@ -114,20 +114,29 @@ div.slider img{
   }
 }
 
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+ #banners, #banner_slider, #slider {
+    height: 34rem;
+    width: 10em
+  }
+  .ad-block-1, .ad-block-2{
+    height: 34rem;
+    width: 10em
+  }
+}
+
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
-/* Styles */
+  #banners, #banner_slider, #slider {
+    height: 54rem;
+    width: 10em
+  }
+  .ad-block-1, .ad-block-2{
+    height: 54rem;
+    width: 10em
+  }
 }
-
-/* iPhone 4 ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
-/* Styles */
-}
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
